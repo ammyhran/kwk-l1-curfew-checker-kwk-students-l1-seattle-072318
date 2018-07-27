@@ -29,7 +29,7 @@ def deluxe_curfew_checker(time)
     puts "You have #{time_left}."
   else 
     puts "You did not make curfew!"
-end
+  end
 end 
 
 # def platinum_curfew_checker(current_time, curfew_time)
