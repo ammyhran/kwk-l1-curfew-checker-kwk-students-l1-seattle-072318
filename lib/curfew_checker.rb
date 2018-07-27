@@ -7,17 +7,24 @@ end
 def curfew_checker(time)
   if time > 11
     puts "You did not make curfew!"
-  elsif
+  else
     puts "You made curfew!"
-end
+  end
 end 
 
 def complex_curfew_checker(time)
-  # code goes here
+  if time > 11
+    puts "You did not make curfew!"
+  elsif time = 11
+    puts "You are on time."
+  else
+    puts "You made curfew!"
+  end
 end
 
 def deluxe_curfew_checker(time)
-  # code goes here
+  curfew = 11
+  if 
 end
 
 def platinum_curfew_checker(current_time, curfew_time)
