@@ -16,7 +16,7 @@ def complex_curfew_checker(time)
   if time > 11
     puts "You did not make curfew!"
   elsif time = 11
-    puts "You are on time."
+    puts "You're in trouble! Better get home quick!"
   else
     puts "You made curfew!"
   end
