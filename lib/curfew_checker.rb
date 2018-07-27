@@ -1,14 +1,14 @@
 def simple_curfew_checker(time)
   if time > 11
-    return "You're in trouble! Better get home quick!"
+    puts "You're in trouble! Better get home quick!"
   end
 end
 
 def curfew_checker(time)
   if time > 11
-    "You're in trouble! Better get home quick!"
-  else
-    "You're in trouble! Better get home quick!"
+    puts "You're in trouble! Better get home quick!"
+  else time <= 11
+    puts "Keep having fun!"
   end
 end 
 
