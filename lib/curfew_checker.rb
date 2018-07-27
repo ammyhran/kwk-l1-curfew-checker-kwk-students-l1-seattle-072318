@@ -1,24 +1,24 @@
 def simple_curfew_checker(time)
   if time > 11
-    puts "You did not make curfew!"
+    "You're in trouble! Better get home quick!"
   end
 end
 
 def curfew_checker(time)
   if time > 11
-    puts "You did not make curfew!"
+    "You're in trouble! Better get home quick!"
   else
-    puts "You made curfew!"
+    "Keep having fun!"
   end
 end 
 
 def complex_curfew_checker(time)
   if time > 11
-    puts "You did not make curfew!"
+    "You're in trouble! Better get home quick!"
   elsif time = 11
-    puts "You're in trouble! Better get home quick!"
+    "Time to apparate!"
   else
-    puts "You made curfew!"
+    "Keep having fun!"
   end
 end
 
@@ -26,9 +26,9 @@ def deluxe_curfew_checker(time)
   curfew = 11
   if time < curfew
     time_left = curfew - time 
-    puts "You have #{time_left}."
+    "You have #{time_left} hour(s) left to keep having fun!"
   else 
-    puts "You did not make curfew!"
+    "You're in trouble! Better get home quick!"
   end
 end 
 
