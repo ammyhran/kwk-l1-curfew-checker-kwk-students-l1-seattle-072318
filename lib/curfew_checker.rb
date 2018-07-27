@@ -24,9 +24,11 @@ end
 
 def deluxe_curfew_checker(time)
   curfew = 11
-  time_left = 
   if time < curfew
     time_left = curfew - time 
+    puts "You have #{time_left}."
+  else 
+    puts "You did not make curfew!"
 end
 
 def platinum_curfew_checker(current_time, curfew_time)
